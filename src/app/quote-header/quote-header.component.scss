@@ -1,0 +1,25 @@
+.upvote {
+    background-color: rgb(79, 204, 79);
+    color: rgb(18, 71, 42);
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  .downvote {
+    background-color: rgb(71, 255, 215);
+    color: rgb(166, 208, 228);
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  .upvote:hover {
+    color: rgb(221, 202, 29);
+    background-color: rgb(255, 255, 255);
+  }
+  .downvote:hover {
+    color: red;
+    background-color: rgb(140, 250, 217);
+  }
+  .icon {
+    font-size: 1.2rem;
+  }
